@@ -28,5 +28,5 @@ eg: 排行榜系统在原有的基础上进行了魔改。设置步骤相同，�
 
 ![排行榜截图](./rank_list_screenshot.jpg)
 
-具体通过情况可以在`Github Actions`里的`yfblock/os-autograding`查看
+具体通过情况可以在`Github Actions`里的`yfblock/os-autograding`查看，后面会尝试添加到各个用户的`gh-pages`中。
 ![通过项](./details_screenshot.jpg)
