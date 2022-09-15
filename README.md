@@ -23,4 +23,10 @@
 目前已经测试过兼容Github Classroom,但是对于排行榜系统兼容性略差，目前做了一定修改，后面会尝试维护或重构。
 
 ![ClassRoom截图](./classroom_screenshot.jpg)
+
 eg: 排行榜系统在原有的基础上进行了魔改。设置步骤相同，但是源代码略有改动，如需部署请拉取 [https://github.com/os-autograding/classroom-grading-template](https://github.com/os-autograding/classroom-grading-template)
+
+![排行榜截图](./rank_list_screenshot.jpg)
+
+具体通过情况可以在`Github Actions`里的`yfblock/os-autograding`查看
+![通过项](//details_screenshot.jpg)
