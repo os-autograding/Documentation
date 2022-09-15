@@ -5,6 +5,8 @@
 3. 评测脚本所在的仓库
 4. 排行榜仓库（可选）
 
+> 这样在老师需要添加题目或者更新题目时，不再需要学生去同步仓库，评测更灵活
+
 ## 评测流程
 1. 源仓库提交后执行GitHub Actions.
 2. Github Actions准备评测环境
@@ -17,5 +19,7 @@
 1. [源仓库设置](源仓库设置.md)
 2. [评测脚本仓库设置](评测脚本仓库设置.md)
 3. [评测程序仓库设置](评测程序仓库设置.md)
+
+目前已经测试过兼容Github Classroom,但是对于排行榜系统兼容性略差，目前做了一定修改，后面会尝试维护或重构。
 
 eg: 排行榜系统在原有的基础上进行了魔改。设置步骤相同，但是源代码略有改动，如需部署请拉取 [https://github.com/os-autograding/classroom-grading-template](https://github.com/os-autograding/classroom-grading-template)
