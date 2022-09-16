@@ -24,6 +24,8 @@
 ![log信息截图](./log_list_screenshot.jpg)
 ![log详情截图](./log_details_screenshot.jpg)
 
+参考地址: [https://github.com/os-autograding/oskernel-yfblock/tree/gh-pages](https://github.com/os-autograding/oskernel-yfblock/tree/gh-pages)
+
 目前已经测试过兼容Github Classroom,但是对于排行榜系统兼容性略差，目前做了一定修改，后面会尝试维护或重构。
 
 ![ClassRoom截图](./classroom_screenshot.jpg)
