@@ -20,6 +20,10 @@
 2. [评测脚本仓库设置](评测脚本仓库设置.md)
 3. [评测程序仓库设置](评测程序仓库设置.md)
 
+添加了简单的日志系统，在源仓库每一次提交后会在`gh-pages`分支中生成一个log文件，文件名为日期和时间，文件内容为测例通过详情和总得分，方便同学们查看提交记录和信息。
+![log信息截图](./log_list_screenshot.jpg)
+![log详情截图](./log_details_screenshot.jpg)
+
 目前已经测试过兼容Github Classroom,但是对于排行榜系统兼容性略差，目前做了一定修改，后面会尝试维护或重构。
 
 ![ClassRoom截图](./classroom_screenshot.jpg)
